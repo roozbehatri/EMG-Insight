@@ -1,0 +1,25 @@
+name: emg
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pywavelets
+  - mne
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - pyyaml
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly       # ensures you only get the CPU build of PyTorch
+  - pip
+  - pip:
+      - lightning
+      - biosppy
