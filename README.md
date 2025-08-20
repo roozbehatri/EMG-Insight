@@ -108,7 +108,7 @@ A comparison table will be added once all models are trained.
 ---
 
 ## 🗂 Repository Structure
----
+```
 ├── 04_db1_preprocessing.ipynb
 ├── 05_db1_cnn_baseline.ipynb
 ├── 06_db1_lstm_baseline.ipynb
@@ -118,6 +118,6 @@ A comparison table will be added once all models are trained.
 ├── models/          # Model definitions
 ├── data/            # Processed .npz files
 └── README.md
----
----
+```
+
 ✍️ Maintained as part of ongoing research into **EMG-based gesture recognition**.
