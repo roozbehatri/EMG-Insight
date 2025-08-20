@@ -1,0 +1,6 @@
+# Default preprocessing & windowing parameters for DB1
+fs_hz: 100        # DB1 Otto Bock EMG sampling (RMS)
+notch_hz: 50      # set 60 in the US if needed
+bandpass_hz: [20, 450]
+window_ms: 200
+step_ms: 50
